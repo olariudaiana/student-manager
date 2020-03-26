@@ -15,7 +15,7 @@ public class ViewStudentsController {
 
     @FXML
     public TableColumn<Student, String> studentLastNameColumn;
-    @FXML
+    primaryStage.setTitle("FIS - Student Manager");
     public TableColumn<Student, String> studentFirstNameColumn;
     @FXML
     public TableColumn<Student, Integer> studentAgeColumn;
